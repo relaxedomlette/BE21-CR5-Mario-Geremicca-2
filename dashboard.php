@@ -166,7 +166,7 @@ if (mysqli_num_rows($readResult) == 0) {
         </div>
     </nav>
 
-    <img src="../CRUD_Login/pictures/museum1.jpg" width="100%" alt="">
+    
     <br><br>
     <div class="container">
         <table class="table table-striped">
