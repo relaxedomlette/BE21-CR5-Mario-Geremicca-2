@@ -92,9 +92,9 @@ if (mysqli_num_rows($readResult) == 0) {
 <body>
     <nav class="navbar bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="#">
-            <small class="smalltext"><?= $row["email"] ?></small> <img src="pictures/<?= $row["picture"] ?>" alt="Bootstrap" width="30" height="24">
-            </a>
+            
+            <small class="smalltext"><?= $row["email"] ?></small> <img src="img/<?= $row["picture"] ?>" alt="#" width="30" height="24">
+            
             <a class="navbar-brand" href="home.php">
                 Home
             </a> 
