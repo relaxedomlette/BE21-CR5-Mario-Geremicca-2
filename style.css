@@ -1,0 +1,47 @@
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-heading {
+  position: absolute;
+  padding: 2% 8% 30%;
+  font-size: 3rem;
+  color: #183190;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+}
+#flex {
+  display: flex;
+  flex-direction: row;
+}
+.show_more_img {
+  margin: auto;
+  width: 300px;
+  height: 350px;
+  padding: 20px 20px;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.shadow {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 2%;
+}
+
+.profile_text {
+  padding: 5% 10%;
+  font-size: 3rem;
+}
