@@ -94,7 +94,6 @@ if (mysqli_num_rows($readResult) == 0) {
     <nav class="navbar bg-body-tertiary">
         <div class="container">
          
-               <small class="smalltext"><?= $row["email"] ?></small> <img src="img/<?= $row["picture"] ?>" alt="#" width="30" height="24">
             
             <a class="navbar-brand" href="seniorAnimals.php">
                 Senior Animals
